@@ -1,11 +1,10 @@
-# jumper-assignment-viskag
-**jumper-assignment-viskag**
+# MLAgents III Jumper**
 
-**MLAgents III Jumper**
+*Project door: Lowie Van Meensel en Vislan Kagermanov*
 
 **Inleiding**
 
-Dit project implementeert een zelflerende agent in Unity met behulp van ML-Agents. De agent leert obstakels te ontwijken door erover te springen. Obstakels krijgen elke episode een andere snelheid. Daarnaast zijn er bepaalde obstakels die bonuspunten opleveren bij een botsing, terwijl andere obstakels vermeden moeten worden.
+Dit project maakt gebruik van ML-Agents in Unity om een zelflerende agent te implementeren. De agent leert obstakels te ontwijken door erover te springen. In elke episode varieert de snelheid van de obstakels, wat de uitdaging vergroot. Daarnaast zijn er obstakels die bonuspunten opleveren bij een botsing, terwijl andere obstakels juist vermeden moeten worden.
 
 **Methoden**
 
@@ -17,14 +16,12 @@ Dit project implementeert een zelflerende agent in Unity met behulp van ML-Agent
 
 **Agent Eigenschappen**
 
-- **Observaties:**
-  - Raycast detectie van de omgeving
+  - Kern observatie: Raycast detectie van de omgeving
   - Andere observaties:
     - Of de agent op de grond is (en dus kan springen)
     - Positie en snelheid van het obstakel/reward
     - Type object dat op de agent afkomt (obstacle of reward)
-- **Acties:**
-  - **DiscreteAction**: Springen (1) of niet springen (0)
+  - DiscreteAction: Springen (1) of niet springen (0)
 
 **Reward Systeem**
 
