@@ -1,12 +1,12 @@
-# MLAgents III Jumper**
+# MLAgents III Jumper
 
 *Project door: Lowie Van Meensel en Vislan Kagermanov*
 
-**Inleiding**
+## Inleiding
 
 Dit project maakt gebruik van ML-Agents in Unity om een zelflerende agent te implementeren. De agent leert obstakels te ontwijken door erover te springen. In elke episode varieert de snelheid van de obstakels, wat de uitdaging vergroot. Daarnaast zijn er obstakels die bonuspunten opleveren bij een botsing, terwijl andere obstakels juist vermeden moeten worden.
 
-**Methoden**
+## Methoden
 
 **Requirements**
 
@@ -62,7 +62,7 @@ python -m pip install mlagents==0.30.0
 
 mlagents-learn config/Agent.yaml --force --run-id=Agent
 
-**Resultaten**
+## Resultaten
 
 De resultaten zijn te zien op de onderstaande tensorboard:
 
@@ -71,7 +71,7 @@ ZIE LINK: https://imgur.com/a/tensorboard-jumper-kJdQtnA
 (Blauwe lijn: training waarbij de agent extra observaties kreeg)
 (Oranje lijn: de training observaties)
 
-**Conclusie**
+## Conclusie
 
 Zoals je kan al hierboven op de figuur kan opmerken door de toevoeging van deze extra observaties leerde de agent aanzienlijk sneller en effectiever obstakels te vermijden.
 
