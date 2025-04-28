@@ -42,25 +42,27 @@ Kleine veranderingen in de waarde van deze beloningen hebben een grote impact op
 
 1. Maak een nieuwe omgeving aan in Anaconda prompt en installeer in deze nieuwe omgeving de ML-Agents package:
 
-conda create --name mlagents python=3.9.18
+&nbsp;&nbsp;conda create --name mlagents python=3.9.18
 
-conda activate mlagents
+&nbsp;&nbsp;conda activate mlagents
 
-pip3 install torch~=1.7.1 -f <https://download.pytorch.org/whl/torch_stable.html>
+&nbsp;&nbsp;pip3 install torch~=1.7.1 -f <https://download.pytorch.org/whl/torch_stable.html>
 
-pip install protobuf==3.20.\*
+&nbsp;&nbsp;pip install protobuf==3.20.\*
 
-python -m pip install mlagents==0.30.0
+&nbsp;&nbsp;python -m pip install mlagents==0.30.0
 
 (Voor het trainen van de agent is een configuratiebestand vereist.)
 
-1. Maak een yaml bestand aan en noem deze Agent.yaml, plaats vervolgens deze bestand in de config folder van je project.
+2. Maak een yaml bestand aan en noem deze Agent.yaml, plaats vervolgens deze bestand in de config folder van je project.
 
 (De Unity Scene is al opgezet, zie hiervoor de git repo)
 
-1. Start de training door op in de Anaconda prompt deze commando uit te voeren (vervolgens druk je op Play in de Unity Editor):
+3. Start de training door op in de Anaconda prompt deze commando uit te voeren (vervolgens druk je op Play in de Unity Editor):
 
-mlagents-learn config/Agent.yaml --force --run-id=Agent
+&nbsp;&nbsp;mlagents-learn config/Agent.yaml --force --run-id=Agent
+
+(Ten slotte kan je ook de trainingprogressie visueel weergeven door de command ''tensorboard --logdir results'' in een nieuwe prompt)
 
 ## Resultaten
 
