@@ -1,3 +1,4 @@
+
 # MLAgents III Jumper
 
 *Project door: Lowie Van Meensel en Vislan Kagermanov*
@@ -44,13 +45,13 @@ Kleine veranderingen in de waarde van deze beloningen hebben een grote impact op
 
 &nbsp;&nbsp;conda create --name mlagents python=3.9.18
 
-&nbsp;&nbsp;conda activate mlagents
+&nbsp;&nbsp;&nbsp;&nbsp;conda activate mlagents
 
-&nbsp;&nbsp;pip3 install torch~=1.7.1 -f <https://download.pytorch.org/whl/torch_stable.html>
+&nbsp;&nbsp;&nbsp;&nbsp;pip3 install torch~=1.7.1 -f <https://download.pytorch.org/whl/torch_stable.html>
 
-&nbsp;&nbsp;pip install protobuf==3.20.\*
+&nbsp;&nbsp;&nbsp;&nbsp;pip install protobuf==3.20.\*
 
-&nbsp;&nbsp;python -m pip install mlagents==0.30.0
+&nbsp;&nbsp;&nbsp;&nbsp;python -m pip install mlagents==0.30.0
 
 (Voor het trainen van de agent is een configuratiebestand vereist.)
 
@@ -60,7 +61,7 @@ Kleine veranderingen in de waarde van deze beloningen hebben een grote impact op
 
 3. Start de training door op in de Anaconda prompt deze commando uit te voeren (vervolgens druk je op Play in de Unity Editor):
 
-&nbsp;&nbsp;mlagents-learn config/Agent.yaml --force --run-id=Agent
+&nbsp;&nbsp;&nbsp;&nbsp;mlagents-learn config/Agent.yaml --force --run-id=Agent
 
 (Ten slotte kan je ook de trainingprogressie visueel weergeven door de command ''tensorboard --logdir results'' in een nieuwe prompt)
 
