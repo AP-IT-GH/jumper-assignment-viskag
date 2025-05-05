@@ -69,7 +69,9 @@ Kleine veranderingen in de waarde van deze beloningen hebben een grote impact op
 
 De resultaten zijn te zien op de onderstaande tensorboard:
 
-ZIE LINK: https://imgur.com/a/tensorboard-jumper-kJdQtnA
+![Resultaten](TENSORBOARDpicture.png)
+
+ALTERNATIEF: https://imgur.com/a/tensorboard-jumper-kJdQtnA
 
 (Blauwe lijn: training waarbij de agent extra observaties kreeg)
 (Oranje lijn: de training observaties)
