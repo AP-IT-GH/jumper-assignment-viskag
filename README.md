@@ -69,7 +69,7 @@ Kleine veranderingen in de waarde van deze beloningen hebben een grote impact op
 
 De resultaten zijn te zien op de onderstaande tensorboard:
 
-![Resultaten](TENSORBOARDpicture.png)
+![Resultaten](tensorboard.png)
 
 ALTERNATIEF: https://imgur.com/a/tensorboard-jumper-kJdQtnA
 
