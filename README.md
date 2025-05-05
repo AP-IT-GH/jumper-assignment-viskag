@@ -2,7 +2,9 @@
 # MLAgents III Jumper
 
 *Project door: Lowie Van Meensel s120674 en Vislan Kagermanov s144510*
+
 ***Video***
+
 https://ap.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=6256d89b-2e45-487b-a32c-b2b400bf53ed
 
 ## Inleiding
