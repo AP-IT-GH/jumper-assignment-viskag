@@ -85,4 +85,12 @@ Door de rewards en observaties zorgvuldig af te stemmen, werd een efficiënte ag
 - Evenwicht in rewards: Zowel overmatige straffen als beloningen kunnen het gedrag van de agent sterk beïnvloeden.
 - Toegevoegde observaties: Specifieke observaties speelden een cruciale rol in het versnellen van de leercurve.
 
+## Referenties
+
+-	Muyshondt, Karen (2022), mlagents_2223-deel1 , AP Hogeschool.
+-	Muyshondt, Karen (2022), mlagents, AP Hogeschool.
+
+
+
+
 
